@@ -6,17 +6,21 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        sm: '32em',
-        md: '48em',
-        lg: '64em',
-        xl: '80em',
-        'sm-max': { max: '48em' },
-        'sm-only': { min: '32em', max: '48em' },
-        'md-only': { min: '48em', max: '64em' },
-        'lg-only': { min: '64em', max: '80em' },
-        'xl-only': { min: '80em', max: '96em' }
+        xxsdn: { max: '480px' },
+        xs: '481px',
+        xsdn: { max: '575px' },
+        sm: '576px',
+        smdn: { max: '767px' },
+        md: '768px',
+        mddn: { max: '991px' },
+        lg: '992px',
+        lgdn: { max: '1199px' },
+        xl: '1200px',
+        xldn: { max: '1399px' },
+        xxl: '1400px'
       },
       fontFamily: {
+        
         heading: 'var(--font-heading-family)',
         body: 'var(--font-body-family)'
       },
@@ -27,11 +31,13 @@ module.exports = {
         xl: ['var(--font-size-xl)', '1.4']
       },
       colors: {
-        accent: 'hsla(var(--color-accent) / <alpha-value>)',
+        accent: '#f99d1c',
         surface: 'hsla(var(--color-surface) / <alpha-value>)',
-        primary: 'hsla(var(--color-primary) / <alpha-value>)',
+        primary: '#000',
         contrast: 'hsla(var(--color-contrast) / <alpha-value>)',
-        secondary: 'hsla(var(--color-secondary) / <alpha-value>)'
+        secondary: '#fff',
+        tertiary: '#372e2c',
+        muted: '#adadad',
       },
       transitionTimingFunction: {
         wiggle: 'cubic-bezier(0.22, 1, 0.36, 1)'
