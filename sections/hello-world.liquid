@@ -13,54 +13,54 @@
   and the form will still submit to Shopify cart!
 {% endcomment %}
 
-
-{% schema %}
-{
-  "name": "Hello World",
-  "settings": [
-    {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading"
-    },
-    {
-      "type": "inline_richtext",
-      "id": "instruction_1",
-      "label": "First instruction"
-    },
-    {
-      "type": "inline_richtext",
-      "id": "instruction_2",
-      "label": "Second instruction"
-    }
-  ],
-  "blocks": [
-    {
-      "name": "Card",
-      "type": "card-block",
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "label": "Heading"
-        },
-        {
-          "type": "textarea",
-          "id": "description",
-          "label": "Description"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Hello World"
-    }
-  ]
-}
-{% endschema %}
+{% comment %}
+   {
+    "name": "Hello World",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "instruction_1",
+        "label": "First instruction"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "instruction_2",
+        "label": "Second instruction"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Card",
+        "type": "card-block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hello World"
+      }
+    ]
+  }
+  {% endschema %}
+{% endcomment %}

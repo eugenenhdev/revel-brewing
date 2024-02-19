@@ -44,12 +44,14 @@
     %}
   </head>
   <body>
+
     <main
       id="MainContent"
       tabindex="-1">
       {{ content_for_layout }}
     </main>
-
+    
+    {% section 'footer' %}
     <script>
       window.shopUrl = '{{ request.origin }}'
       window.routes = {
@@ -61,5 +63,6 @@
         product_recommendations_url: '{{ routes.product_recommendations_url }}'
       }
     </script>
+    {{ 'flowbite.min.js' | asset_url | script_tag }}
   </body>
 </html>

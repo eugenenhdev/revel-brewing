@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "adastra dev",
+    "dev": "adastra dev -s revel-development.myshopify.com",
     "build": "adastra build",
     "watch": "adastra build",
     "preview": "adastra preview",
@@ -11,16 +11,19 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
+    "@shopify/cli": "latest",
+    "@shopify/theme": "latest",
     "adastra-cli": "latest",
     "adastra-plugin": "latest",
     "adastra-prettier-config": "latest",
-    "@shopify/cli": "latest",
-    "@shopify/theme": "latest",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "tailwindcss": "^3.2.7",
     "vite": "^4.1.4"
   },
-  "prettier": "adastra-prettier-config"
+  "prettier": "adastra-prettier-config",
+  "dependencies": {
+    "flowbite": "^2.3.0"
+  }
 }

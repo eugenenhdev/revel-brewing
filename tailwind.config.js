@@ -1,28 +1,29 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './{assets,config,layout,locales,sections,snippets,src,templates}/**/*.{js,ts,jsx,tsx,vue,svelte,liquid,json}'
+    './{assets,config,layout,locales,sections,snippets,src,templates}/**/*.{js,ts,jsx,tsx,vue,svelte,liquid,json}',
+    './node_modules/flowbite/**/*.js'
   ],
+  plugins: [require('flowbite/plugin')],
   theme: {
     extend: {
       screens: {
-        xxsdn: { max: '480px' },
-        xs: '481px',
-        xsdn: { max: '575px' },
-        sm: '576px',
-        smdn: { max: '767px' },
-        md: '768px',
-        mddn: { max: '991px' },
-        lg: '992px',
+        xldn: { max: '1399px' },
+        xxl: '1400px',
         lgdn: { max: '1199px' },
         xl: '1200px',
-        xldn: { max: '1399px' },
-        xxl: '1400px'
+        mddn: { max: '991px' },
+        lg: '992px',
+        smdn: { max: '767px' },
+        md: '768px',
+        xsdn: { max: '575px' },
+        sm: '576px',
+        xxdn: { max: '480px' },
+        xs: '481px'
       },
       fontFamily: {
-        
-        heading: 'var(--font-heading-family)',
-        body: 'var(--font-body-family)'
+        heading: 'Agharti',
+        body: 'Montserrat'
       },
       fontSize: {
         sm: ['var(--font-size-sm)', '1.428'],
@@ -37,7 +38,7 @@ module.exports = {
         contrast: 'hsla(var(--color-contrast) / <alpha-value>)',
         secondary: '#fff',
         tertiary: '#372e2c',
-        muted: '#adadad',
+        muted: '#adadad'
       },
       transitionTimingFunction: {
         wiggle: 'cubic-bezier(0.22, 1, 0.36, 1)'
