@@ -1,8 +1,12 @@
 {
   "sections": {
     "main": {
-      "type": "global-static-img-text"
+      "type": "global-static-img-text",
+      "settings": {
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }

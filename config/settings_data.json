@@ -1,6 +1,22 @@
 {
-  "current": {},
+  "current": {
+    "sections": {
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/revel-brewing.svg",
+          "image-mobile": "shopify:\/\/shop_images\/revel-mobile.svg",
+          "menu": "footer",
+          "abng": "ABN: xxxxxxxxx © 2023,  Revel Brewing Company"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
-    "Default": {}
+    "Default": {
+    }
   }
 }
