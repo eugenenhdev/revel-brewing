@@ -31,6 +31,14 @@
           "menu": "footer",
           "abng": "ABN: xxxxxxxxx © 2023,  Revel Brewing Company"
         }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "desktop": "shopify:\/\/shop_images\/revel-desktop-nav.svg",
+          "mobile": "shopify:\/\/shop_images\/revel-mobile-nav.svg",
+          "menu": "main-menu"
+        }
       }
     },
     "content_for_index": [
