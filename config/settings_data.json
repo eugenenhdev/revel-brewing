@@ -1,6 +1,44 @@
 {
-  "current": {},
+  "current": {
+    "sections": {
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "venue_GfATjJ": {
+            "type": "venue",
+            "settings": {
+              "title": "Rivermakers",
+              "description": "<p>82 Colmslie Rd, Morningside<br\/>hello@revelbrewingco.com.au<br\/>functions@revelbrewingco.com.au<br\/>0420 629 721<br\/><\/p>",
+              "opening-hours": "<p>Wednesday 12 pm–9 pm<br\/>Thursday 12 pm–9 pm<br\/>Friday 12 pm–10 pm<br\/>Saturday - Sunday 12pm–8pm<\/p>"
+            }
+          },
+          "venue_q63QNn": {
+            "type": "venue",
+            "settings": {
+              "title": "Bulimba",
+              "description": "<p>41 Oxford Street Bulimba QLD<br\/>hello@revelbrewingco.com.au<br\/>functions@revelbrewingco.com.au<br\/>0738 995 470<br\/><\/p>",
+              "opening-hours": "<p>Monday - Thursday 4pm–9 pm<br\/>Friday - Saturday\t12pm–10 pm<br\/>Sunday    12pm–9pm<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "venue_GfATjJ",
+          "venue_q63QNn"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/revel-brewing.svg",
+          "image-mobile": "shopify:\/\/shop_images\/revel-mobile.svg",
+          "menu": "footer",
+          "abng": "ABN: xxxxxxxxx © 2023,  Revel Brewing Company"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
-    "Default": {}
+    "Default": {
+    }
   }
 }
