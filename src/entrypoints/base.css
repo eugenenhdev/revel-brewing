@@ -104,7 +104,7 @@
     @apply aspect-square h-fit;
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
   @media screen and (min-width: 1440px) {
     p {
@@ -127,8 +127,9 @@
   h4,
   h5,
   h6 {
-    letter-spacing: 4px;
+    letter-spacing: 0.4px;
     text-transform: uppercase;
+    font-family: 'Agharti';
   }
   h1 {
     font-size: 80px;

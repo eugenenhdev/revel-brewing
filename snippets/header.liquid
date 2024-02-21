@@ -3,7 +3,7 @@
 {% assign mobileLogo = section.settings.mobile | img_url: '160x60' %}
 {% assign menu = section.settings.menu %}
 
-<header class="main-header lg:bg-white  py-10 lgdn:py-5 relative z-50 ">
+<header class="main-header lg:bg-white  py-10 lgdn:py-5 relative ">
     <div class="container-2xl">
     <div class="flex items-center justify-between">
         <div class="site-burger xl:hidden nav-item">
@@ -35,7 +35,7 @@
                                 {% if link.links.size == 0 %}
                                 <a class="font-medium uppercase text-[20px] xldn:text-[16px] transition-colors duration-300 hover:text-accent {% if link.active  %} text-accent font-bold{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
                                     {% elsif link.links.size > 0  %}
-                                <span  data-dropdown-trigger="click" data-dropdown-offset-distance="55" data-dropdown-toggle="{{ link.title }}" class="inline-block {% if link.active  %} text-accent font-bold{% endif %} font-medium uppercase text-[20px] xldn:text-[16px] transition-colors duration-300 hover:text-accent" >{{ link.title }}</span>
+                                <span  data-dropdown-trigger="click" data-dropdown-offset-distance="55" data-dropdown-toggle="{{ link.title }}" class="inline-block cursor-pointer{% if link.active  %} text-accent font-bold{% endif %} font-medium uppercase text-[20px] xldn:text-[16px] transition-colors duration-300 hover:text-accent" >{{ link.title }}</span>
                                   
                                         
                                     <div id="{{ link.title }}"  class="dropdown-menu border-t-8 border-slate-400 border-solid bg-white z-30 absolute gap-24 xldn:gap-12 flex justify-center items-center w-full py-14 hidden">
