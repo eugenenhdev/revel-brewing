@@ -1,12 +1,12 @@
 {
   "sections": {
-    "main": {
-      "type": "global-static-img-text",
+    "product_list_EWdYcY": {
+      "type": "product-list",
       "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "product_list_EWdYcY"
   ]
 }
